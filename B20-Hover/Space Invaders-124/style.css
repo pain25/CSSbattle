@@ -1,0 +1,130 @@
+body {
+  background: #071945;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 90px;
+}
+.header {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  height: 100px;
+  width: 100%;
+}
+.inner-top,
+.inner-down {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.inner-top,
+.inner-down {
+  width: 340px;
+  height: 10px;
+  justify-content: space-between;
+  padding: 30px 0px 0px 0px;
+  flex-wrap: wrap;
+}
+.ship,
+.shipt {
+  width: 70px;
+  height: 10px;
+  margin-top: 2px;
+  display: flex;
+}
+.first > div:first-child,
+.second > div:first-child,
+.third > div:first-child,
+.fourth > div:first-child {
+  width: 14%;
+  height: 10px;
+  background: #b069f7;
+}
+.first > div:nth-child(2),
+.second > div:nth-child(2),
+.third > div:nth-child(2),
+.fourth > div:nth-child(2) {
+  width: 72%;
+  height: 10px;
+  background: #b069f7;
+  transform: translateY(-10px);
+}
+.first > div:last-child,
+.second > div:last-child,
+.third > div:last-child,
+.fourth > div:last-child {
+  width: 14%;
+  height: 10px;
+  background: #b069f7;
+}
+.tfirst > div:first-child,
+.tsecond > div:first-child,
+.tthird > div:first-child {
+  width: 14%;
+  height: 10px;
+  background: #f8da37;
+}
+.tfirst > div:nth-child(2),
+.tsecond > div:nth-child(2),
+.tthird > div:nth-child(2) {
+  width: 72%;
+  height: 10px;
+  background: #f8da37;
+  transform: translateY(-10px);
+}
+.tfirst > div:last-child,
+.tsecond > div:last-child,
+.tthird > div:last-child {
+  width: 14%;
+  height: 10px;
+  background: #f8da37;
+}
+.inner-down {
+  margin-top: 10px;
+  justify-content: end;
+  gap: 20px;
+}
+.tfirst {
+  transform: translateX(-90px);
+}
+.footer {
+  height: 100px;
+  width: 100%;
+  background: whiteZ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  height: 70px;
+  width: 10px;
+  transform: translateY(-13px) translateX(20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1px;
+}
+.one > div {
+  height: 10px;
+  width: 10px;
+  background: #2ce1ea;
+}
+.two {
+  height: 40px;
+  width: 40px;
+  background: #2ce1ea;
+  margin-top: 70px;
+  transform: rotate(45deg) translateX(6.5px) translateY(13.5px);
+}
+.two > div {
+  height: 10px;
+  width: 10px;
+  background: #2ce1ea;
+  transform: rotate(-45deg) translateY(-5px);
+}
